@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon">
+    <title>Drool | Register</title>
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/semantic.min.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!-- <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css"> -->
+</head>
+<body style="background:url(../../assets/img/background.jpg) no-repeat center; background-size:cover; display: table; width: 100%;
+height: 100%;">
+  <!-- SIDEBAR -->
+    <div class="ui sidebar vertical menu large icon labelled container">
+      <a href="#" class="navbar-brand item centered brand">
+        <h1><i class="fas fa-utensils"></i> Drool</h1>
+      <a href="index.html" class="active item">
+        <i class="home icon relative-text"></i>Discover Drools
+      </a>
+      <a href="/spots.html" class="item">
+        <i class="map icon"></i>Drool Spots
+      </a>
+      <a href="/dropjaws.html" class="item">
+        <i class="star icon"></i>Drop Jaws
+      </a>
+      <a href="#" class="item">
+        <i class="heart icon"></i> My Drools
+      </a>
+      <br>
+      <div class="ui buttons">
+        <button class="ui button grey">
+          <i class="sign in icon"></i> Login
+        </button>
+        <div class="or"></div>
+        <button class="ui button black">
+          <i class="users icon"></i> Sign Up
+        </button>
+      </div>
+    </div>
+
+  <!-- NAVIGATION MENU -->
+  <nav class="navbar navbar-expand-md menu navbar-dark bg-dark">
+    <div class="ui container fluid">
+      <div class="ui secondary inverted top menu">
+        <div class="left item">
+          <a href="#" class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          <a class="navbar-brand inline" href="#"><i class="fas fa-utensils"></i> Drool</a>
+        </div>
+        <div class="right item">
+          <a href="index.html" class="item">
+            <i class="home icon"></i>Discover Drools
+          </a>
+          <a href="/spots.html" class="item">
+            <i class="map icon"></i>Drool Spots
+          </a>
+          <a href="/dropjaws.html" class="item">
+            <i class="star icon"></i>Drop Jaws
+          </a>
+          <a href="#" class="item">
+            <i class="user icon"></i> Welcome, Userchukwu
+          </a>
+          <a href="#" class="item">
+            <i class="sign out icon"></i>Logout
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <br><br>
+
+    <div class="ui register container">
+      <h1 class="ui centered grey header">Register</h1>
+      <div class="ui raised segment register mt-3 mb-3">
+        <form class="ui form">
+          <div class="field">
+            <label>Name</label>
+            <div class="three fields">
+              <div class="field">
+                <input type="text" name="shipping[first-name]" placeholder="First Name">
+              </div>
+              <div class="field">
+                <input type="text" name="shipping[middle-name]" placeholder="Middle Name">
+              </div>
+              <div class="field">
+                <input type="text" name="shipping[last-name]" placeholder="Last Name">
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label>Address</label>
+            <div class="field">
+              <textarea type="text" name="shipping[address]" placeholder="Enter Your Address"></textarea>
+            </div>
+          </div>
+          <div class="two fields">
+            <div class="field">
+              <label>State</label>
+              <select class="ui fluid dropdown">
+                <option value="">Abuja</option>
+                <option value="WY">Lagos</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>Country</label>
+              <div class="ui fluid search selection dropdown">
+                <input type="hidden" name="country">
+                <i class="dropdown icon"></i>
+                <div class="default text">Select Country</div>
+                <div class="menu">
+                <div class="item" data-value="ng"><i class="ng flag"></i>Nigeria</div>
+                <div class="item" data-value="gh"><i class="gh flag"></i>Ghana</div>
+                <div class="item" data-value="sa"><i class="sa flag"></i>South Africa</div>
+              </div>
+             </div>
+          </div>
+        </div>
+        <div class="ui fluid large grey submit button" tabindex="0">Register</div>
+      </form>
+    </div>
+    <a class="text-monospace text-muted ml-3" href="login.html">Signed Up Already?</a>
+  </div>
+
+  <br><br>
+</body>
+<footer id="footer" class="pt-0">
+    <div class="ui inverted vertical footer segment form-page">
+      <div class="ui container text-center">
+        Copyright Drool &copy; 2018. All Rights Reserved
+      </div>
+    </div>
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/leaflet.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- <script src="./assets/js/popper.min.js"></script> -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/semantic.min.js"></script>
+  </footer>
+</html>
