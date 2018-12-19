@@ -85,24 +85,47 @@ height: 100%;">
                 <div class="register">
                     <div class="ui rounded segment">
                         <div class="col-12 text-center">
-                            <h1 class="ui grey header mt-0 mt-3 mb-3">Vendor Login</h1>
+                            <h1 class="ui grey header mt-0 mt-3 mb-3">Register as a Vendor</h1>
                         </div>
                     </div>
                     <div class="row mt-2">
-                        <div class="col-12">
-                            <form action="index.html" method="post" class="">
-                                <div class="input-group">
-                                    <label for="username" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Vendor ID</label>
-                                    <input name="username" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" id="username" value="" required>
-                                </div>
-                                <div class="input-group mt-3">
-                                    <label for="password" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Password</label>
-                                    <input name="password" type="password" class="form-control validate" id="password" value="" required>
-                                </div>
-                                <div class="input-group mt-3">
-                                    <button type="submit" class="ui grey large button btn d-inline-block mx-auto">Login</button>
-                                </div>
-                            </form>
+                        <div class="col-12"><form class="ui form">
+                          <div class="field">
+                            <label>Vendor Name</label>
+                            <div class="field">
+                                <input type="text" name="" placeholder="Enter Your Business Name">
+                            </div>
+                          </div>
+                          <div class="field">
+                            <label>Address</label>
+                            <div class="field">
+                              <textarea type="text" name="shipping[address]" placeholder="Enter Your Store/Office Address"></textarea>
+                            </div>
+                          </div>
+                          <div class="two fields">
+                            <div class="field">
+                              <label>State</label>
+                              <select class="ui fluid dropdown">
+                                <option value="">Abuja</option>
+                                <option value="WY">Lagos</option>
+                              </select>
+                            </div>
+                            <div class="field">
+                              <label>Country</label>
+                              <div class="ui fluid search selection dropdown">
+                                <input type="hidden" name="country">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Select Country</div>
+                                <div class="menu">
+                                <div class="item" data-value="ng"><i class="ng flag"></i>Nigeria</div>
+                                <div class="item" data-value="gh"><i class="gh flag"></i>Ghana</div>
+                                <div class="item" data-value="sa"><i class="sa flag"></i>South Africa</div>
+                              </div>
+                             </div>
+                          </div>
+                        </div>
+                        <div class="ui fluid large grey submit button" tabindex="0">Register</div>
+                      </form>
                         </div>
                     </div>
                 </div>
