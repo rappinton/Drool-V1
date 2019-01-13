@@ -12,9 +12,9 @@ $('.font-div').click(function(){
 
 $( document ).ready(function() {
 	$('.ui.card .image').dimmer({on: 'hover'});
-	});
+});
 
 
 $(document).ready(function () {
 	$('select').formSelect();
-	});
+});

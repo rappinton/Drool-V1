@@ -2,7 +2,9 @@
     font-size: 3vw;
   }
 
-  /* Semantic UI has these classes, however they're only applicable to*/
+  
+
+/* Semantic UI has these classes, however they're only applicable to*/
 /* grids, containers, rows and columns.*/
 /* plus, there isn't any `mobile hidden`, `X hidden` class.*/
 /* this snippet is using the same class names and same approach*/
