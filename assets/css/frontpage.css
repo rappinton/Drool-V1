@@ -52,9 +52,6 @@
     .secondary.pointing.menu .item{
       display: none;
     }
-    .secondary.pointing.menu .toc.item{
-      display: none;
-    }
     #search-bar{
       height: 35px;
       font-size: 7.5pt;
