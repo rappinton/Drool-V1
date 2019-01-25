@@ -2,6 +2,8 @@
     font-size: 3vw;
   }
 
+
+  /* Register and Login (reglog) */
 #login{
   background: url(../img/background2.jpg) no-repeat center;
   background-size:cover;
@@ -9,21 +11,60 @@
   width: 100%;
   height: 100%;
   }
-
-  #register{
+#register{
     background:url(../img/background3.jpg) no-repeat center;
     background-size:cover;
     display: table;
     width: 100%;
     height: 100%;
   }
-
 .reglog{
     padding: 1.5em 2.5em;
     /* width: 100%; */
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0px 6px 35px -6px rgba(0, 0, 0, 0.7);
     border-radius: 5px;
+  }
+
+
+/* Dashboard */
+  .dash-navbar{
+    min-height: 33px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  #dash-header{
+    background: #333333;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  /* #dash-header .create{
+    padding-top: 20px !important;
+  } */
+  .dash-breadcrumb{
+    background: #cccccc;
+    color: #333333;
+  }
+  .dash-breadcrumb a{
+    color: #333333;
+  }
+  .progress-bar{
+    background: #333333;
+    color: #ffffff;
+  }
+  .dash-box{
+    text-align: center;
+  }
+  #dashboard-menu{
+    min-width: 100%;
+  }
+  /* #dashboard-menu: .active.item{
+    color: black !important;
+  } */
+  #dashboard-menu a{
+    color: #CF4944 ;
+    text-align: left;
   }
 
 
