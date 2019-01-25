@@ -46,29 +46,30 @@
       </div>
     </div>
 
-<div class="pusher pb-3">
-  <!-- NAVIGATION MENU -->
-  <nav class="navbar navbar-expand-md menu navbar-dark bg-dark">
-      <div class="ui container fluid">
-        <div class="ui secondary inverted top menu">
+  <!-- MAIN BODY -->
+  <div class="pusher">
+
+    <!-- NAVIGATION MENU -->
+    <nav class="navbar navbar-expand-md menu navbar-dark bg-dark">
+        <div class="ui container fluid">
+          <div class="ui secondary inverted top menu">
             <div class="left item">
-                <a href="#" class="toc item">
-                  <!-- <i class="ui mobile sidebar icon"></i> -->
-                  <i class="fas fa-bars"></i>
-                </a>
-                <a class="navbar-brand inline" href="index.html"><i class="fas fa-utensils"> </i> Drool</a>
-              </div>
-              <div class="right item mobile hidden">
-                <a href="index.html" class="active item">
-                  <i class="home icon"></i>Discover Drools
-                </a>
-                <a href="/spots.html" class="item">
-                  <i class="map icon"></i>Drool Spots
-                </a>
-                <a href="/dropjaws.html" class="item">
-                  <i class="star icon"></i>Drop Jaws
-                </a>
-            <div class="right item">
+                  <a href="#" class="toc item">
+                    <!-- <i class="ui mobile sidebar icon"></i> -->
+                    <i class="fas fa-bars"></i>
+                  </a>
+              <a class="navbar-brand inline" href="index.html"><i class="fas fa-utensils"></i> Drool</a>
+            </div>
+            <div class="right item mobile hidden">
+              <a href="index.html" class="item">
+                <i class="home icon"></i>Discover Drools
+              </a>
+              <a href="spots.html" class="item">
+                <i class="map icon"></i>Drool Spots
+              </a>
+              <a href="dropjaws.html" class="item">
+                <i class="star icon"></i>Drop Jaws
+              </a>
               <a href="#" class="item">
                 <i class="user icon"></i> Welcome, Userchukwu
               </a>
@@ -78,287 +79,253 @@
             </div>
           </div>
         </div>
-      </nav>
-      <header id="dash-header" style="background: #CF4944;">
-        <div class="ui container">
-          <div class="row  mb-3">
-            <div class="col-md-10 pt-3">
-              <h1 class="h1"><i class="cogs icon"></i> Dashboard <small class="small mobile hidden" style="font-size: 12px;">Manage your account</small></h1>
-            </div>
-            <div class="col-md-2">
-              <div class="ui icon top right floated pointing simple dropdown small button">
-                  <i class="plus icon"></i> Add New
-                  <div class="menu">
-                    <div class="header">Add New</div>
-                    <div class="ui divider"></div>
-                    <div class="item"><i class="building icon"></i> Add Branch</div>
-                    <div class="item"><i class="utensils icon"></i> Add Meal</div>
-                    <div class="item"><i class="user icon"></i> Add Manager</div>
-                  </div>
-                </div>
-
-              <!-- <div class="dropdown create" style="margin-top: 0px;">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdown01" name="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Add New
-                  <span class="caret"></span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" data-toggle="modal" data-target="addPage"><i class="building icon"></i> Add Branch</a>
-                  <a class="dropdown-item" href="#"><i class="utensils icon"></i> Add Drool</a>
-                  <a class="dropdown-item" href="#"><i class="user icon"></i> Add Manager</a>
-                </div>
-              </div> -->
-
-            </div>
-          </div>
-        </div>
-      </header
+    </nav>
     
-      <section id="dash-breadcrumb">
-        <div class="ui container">
-          <div class="breadcrumb">
-            <a class="section" href="index.html">Home </a>
-            <small><i class="right small chevron icon divider"></i></small>
-            <a class="active section" href="dashboard.html"> Dashboard</a>
+    <header id="dash-header" style="background: #CF4944;">
+      <div class="ui container">
+        <div class="row  mb-3">
+          <div class="col-md-10 pt-3">
+            <h1 class="h1"><i class="cogs icon"></i> Dashboard <small class="small mobile hidden" style="font-size: 12px;">Manage your account</small></h1>
           </div>
-        </div>
-      </section>
-    
-      <section id="main">
-        <div class="ui container">
-          <div class="row">
-            <div class="col-md-3">
-              <div id="dashboard-menu" class="list-group">
-                <a href="dashboard.html" class="list-group-item list-group-item-dark"><i class="home icon"></i> Dashboard </a>
-                <a href="#" class="list-group-item"><i class="building icon"></i> Branches </a>
-                <a href="#" class="list-group-item"><i class="utensils icon"></i> Drools </a>
-                <a href="#" class="list-group-item"><i class="user icon"></i> Followers </a>
+          <div class="col-md-2">
+            <div class="ui icon top right floated pointing simple dropdown small button">
+                <i class="plus icon"></i> Add New
+                <div class="menu">
+                  <div class="header">Add New</div>
+                  <div class="ui divider"></div>
+                  <div class="item"><i class="building icon"></i> Add Branch</div>
+                  <div class="item"><i class="utensils icon"></i> Add Meal</div>
+                  <div class="item"><i class="user icon"></i> Add Manager</div>
+                </div>
               </div>
 
-              <br>
-              <div class="ui card" style="padding: 15px;">
-                <h4 class="center aligned">Account Setup</h4>
-                <div class="ui progress mt-0 mb-0">
-                  <div class="bar">
-                    <div class="progress"></div>
-                  </div>
-                </div>
-                <span class="text-monospace center aligned">30% Complete</span>
-                <div class="center aligned card-footer">
-                  <button class="btn btn-sm" type="button" name="button">Set up my account</button>
-                </div>
+            <!-- <div class="dropdown create" style="margin-top: 0px;">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdown01" name="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Add New
+                <span class="caret"></span>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" data-toggle="modal" data-target="addPage"><i class="building icon"></i> Add Branch</a>
+                <a class="dropdown-item" href="#"><i class="utensils icon"></i> Add Drool</a>
+                <a class="dropdown-item" href="#"><i class="user icon"></i> Add Manager</a>
               </div>
-            </div>
-            <div class="col-md-9">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title">Account Overview</h3>
-                </div>
-                <br>
-    
-                <div class="ui centered four stackable cards mt-3 mb-3 pb-3">
-                  <a class="red card">
-                    <div class="center aligned content">
-                      <div class="statistic">
-                        <div class="value h1">
-                          <i class="user icon"></i> 12
-                        </div>
-                        <div class="label">
-                          New Followers
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a class="red card">
-                    <div class="center aligned content">
-                      <div class="statistic">
-                        <div class="value h1">
-                          <i class="building icon"></i> 203
-                        </div>
-                        <div class="label">
-                          Branches
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a class="red card">
-                    <div class="center aligned content">
-                      <div class="statistic">
-                        <div class="value h1">
-                          <i class="utensils icon"></i> 33
-                        </div>
-                        <div class="label">
-                          Drools
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a class="red card">
-                    <div class="center aligned content">
-                      <div class="statistic">
-                        <div class="value h1">
-                          <i class="globe icon"></i> 103
-                        </div>
-                        <div class="label">
-                          Visitors
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <br>
-                <br>
-    
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title">Latest Orders</h3>
-                </div>
-                <div class="panel-body">
-                  <table class="ui compact celled definition collapsing table table-hover">
-                    <thead class="full-width">
-                      <tr>
-                        <th></th>
-                        <th>Name</th>
-                        <th>Date</th>
-                        <th>E-mail address</th>
-                        <th>Order</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td class="collapsing">
-                          <div class="ui fitted slider checkbox">
-                            <input type="checkbox"> <label></label>
-                          </div>
-                        </td>
-                        <td>John Isaac</td>
-                        <td>September 14, 2013</td>
-                        <td>jhlilk22@yahoo.com</td>
-                        <td>Rice and Turkey</td>
-                      </tr>
-                      <tr>
-                        <td class="collapsing">
-                          <div class="ui fitted slider checkbox">
-                            <input type="checkbox"> <label></label>
-                          </div>
-                        </td>
-                        <td>Tobi Olawoyin</td>
-                        <td>January 11, 2014</td>
-                        <td>jamieharingonton@yahoo.com</td>
-                        <td>Chicken Peperoni Pizza</td>
-                      </tr>
-                      <tr>
-                        <td class="collapsing">
-                          <div class="ui fitted slider checkbox">
-                            <input type="checkbox"> <label></label>
-                          </div>
-                        </td>
-                        <td>Chioma Adeleke</td>
-                        <td>May 11, 2014</td>
-                        <td>jilsewris22@yahoo.com</td>
-                        <td>Club Sandwitches</td>
-                      </tr>
-                    </tbody>
-                    <tfoot class="full-width">
-                      <tr>
-                        <th></th>
-                        <th colspan="4">
-                          <div class="ui right floated small grey labeled icon button">
-                            <i class="search icon"></i> View All
-                          </div>
-                          <div class="ui small button">
-                            Approve
-                          </div>
-                          <div class="ui small button">
-                            Approve All
-                          </div>
-                        </th>
-                      </tr>
-                    </tfoot>
-                  </table>
-                </div>
-              </div>
-              <br>
-    
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title mb-1">Drool Feed</h3>
-                </div>
-                <div class="panel-body">
-                  <div class="ui relaxed list">
-                    <div class="item">
-                      <img class="ui avatar image" src="/images/avatar/small/daniel.jpg">
-                      <div class="content">
-                        <a class="header">Daniel Olagunju</a>
-                        <div class="description">Tagged you in his drool <a><b>Tasty Yummy!</b></a>
-                          <span class="small right aligned badge text-muted"> Just now</span></div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img class="ui avatar image" src="/images/avatar/small/stevie.jpg">
-                      <div class="content">
-                        <a class="header">Ajenifuja Felicia</a>
-                        <div class="description">Was at <a><b>Risky Burgers</b></a>
-                          <span class="small right aligned badge text-muted"> 10 minutes ago</span></div>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <img class="ui avatar image" src="/images/avatar/small/elliot.jpg">
-                        <div class="content">
-                          <a class="header">Elliot Desmond</a>
-                          <div class="description">Commented on your drool <a><b>Refuel Max</b></a>
-                            <span class="small right aligned badge text-muted"> Yesterday</span></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-  <div class="modal fade" id="addPage" tabindex="1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" name="button"></button>
-            <h4 class="modal-title" id="myModalLabel">Add Page</h4>
-          </div>
-          <div class="modal-body">
-            <div class="form-group">
-              <label>Page Title</label>
-              <input type="text" class="form-control" name="" placeholder="Page Title">
-            </div>
-            <div class="form-group">
-              <label>Page Body</label>
-              <textarea class="form-control" name="editor1" placeholder="Page Body"></textarea>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox"> Published
-              </label>
-            </div>
-            <div class="form-group">
-              <label>Meta Tags</label>
-              <input type="text" class="form-control" name="" placeholder="Add some tags...">
-            </div>
-            <div class="form-group">
-              <label>Meta Description</label>
-              <input type="text" class="form-control" name="" placeholder="Add Meta Description">
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal" name="button">Close</button>
-            <button type="button" class="btn btn primary" name="button">Save Changes</button>
+            </div> -->
+
           </div>
         </div>
       </div>
+    </header>
+
+    <div id="dash-breadcrumb">
+      <div class="ui container">
+        <div class="breadcrumb">
+          <a class="div" href="index.html">Home </a>
+          <small><i class="right small chevron icon divider"></i></small>
+          <a class="active div" href="dashboard.html"> Dashboard</a>
+        </div>
+      </div>
     </div>
-</div>
+
+    <div id="main">
+      <div class="ui container">
+        <div class="row">
+          <div class="col-md-3">
+            <div id="dashboard-menu" class="list-group">
+              <a href="dashboard.html" class="list-group-item list-group-item-dark"><i class="home icon"></i> Dashboard </a>
+              <a href="#" class="list-group-item"><i class="building icon"></i> Branches </a>
+              <a href="#" class="list-group-item"><i class="utensils icon"></i> Drools </a>
+              <a href="#" class="list-group-item"><i class="user icon"></i> Followers </a>
+            </div>
+
+            <br>
+            <div class="ui card" style="padding: 15px;">
+              <h4 class="center aligned">Account Setup</h4>
+              <div class="ui progress mt-0 mb-0">
+                <div class="bar">
+                  <div class="progress"></div>
+                </div>
+              </div>
+              <span class="text-monospace center aligned">30% Complete</span>
+              <div class="center aligned card-footer">
+                <button class="btn btn-sm" type="button" name="button">Set up my account</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Account Overview</h3>
+              </div>
+              <br>
+
+              <div class="ui centered four stackable cards ">
+                <a class="red card">
+                  <div class="center aligned content">
+                    <div class="statistic">
+                      <div class="value h1">
+                        <i class="user icon"></i> 12
+                      </div>
+                      <div class="label">
+                        New Followers
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="red card">
+                  <div class="center aligned content">
+                    <div class="statistic">
+                      <div class="value h1">
+                        <i class="building icon"></i> 203
+                      </div>
+                      <div class="label">
+                        Branches
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="red card">
+                  <div class="center aligned content">
+                    <div class="statistic">
+                      <div class="value h1">
+                        <i class="utensils icon"></i> 33
+                      </div>
+                      <div class="label">
+                        Drools
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="red card">
+                  <div class="center aligned content">
+                    <div class="statistic">
+                      <div class="value h1">
+                        <i class="globe icon"></i> 103
+                      </div>
+                      <div class="label">
+                        Visitors
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <br>
+              <br>
+
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Latest Orders</h3>
+              </div>
+              <div class="panel-body">
+                <table class="ui compact celled definition collapsing table table-hover">
+                  <thead class="full-width">
+                    <tr>
+                      <th></th>
+                      <th>Name</th>
+                      <th>Date</th>
+                      <th>E-mail address</th>
+                      <th>Order</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="collapsing">
+                        <div class="ui fitted slider checkbox">
+                          <input type="checkbox"> <label></label>
+                        </div>
+                      </td>
+                      <td>John Isaac</td>
+                      <td>September 14, 2013</td>
+                      <td>jhlilk22@yahoo.com</td>
+                      <td>Rice and Turkey</td>
+                    </tr>
+                    <tr>
+                      <td class="collapsing">
+                        <div class="ui fitted slider checkbox">
+                          <input type="checkbox"> <label></label>
+                        </div>
+                      </td>
+                      <td>Tobi Olawoyin</td>
+                      <td>January 11, 2014</td>
+                      <td>jamieharingonton@yahoo.com</td>
+                      <td>Chicken Peperoni Pizza</td>
+                    </tr>
+                    <tr>
+                      <td class="collapsing">
+                        <div class="ui fitted slider checkbox">
+                          <input type="checkbox"> <label></label>
+                        </div>
+                      </td>
+                      <td>Chioma Adeleke</td>
+                      <td>May 11, 2014</td>
+                      <td>jilsewris22@yahoo.com</td>
+                      <td>Club Sandwitches</td>
+                    </tr>
+                  </tbody>
+                  <tfoot class="full-width">
+                    <tr>
+                      <th></th>
+                      <th colspan="4">
+                        <div class="ui right floated small grey labeled icon button">
+                          <i class="search icon"></i> View All
+                        </div>
+                        <div class="ui small button">
+                          Approve
+                        </div>
+                        <div class="ui small button">
+                          Approve All
+                        </div>
+                      </th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+            <br>
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title mb-1">Drool Feed</h3>
+              </div>
+              <div class="panel-body">
+                <div class="ui relaxed list">
+                  <div class="item">
+                    <img class="ui avatar image" src="/images/avatar/small/daniel.jpg">
+                    <div class="content">
+                      <a class="header">Daniel Olagunju</a>
+                      <div class="description">Tagged you in his drool <a><b>Tasty Yummy!</b></a>
+                        <span class="small right aligned badge text-muted"> Just now</span></div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img class="ui avatar image" src="/images/avatar/small/stevie.jpg">
+                    <div class="content">
+                      <a class="header">Ajenifuja Felicia</a>
+                      <div class="description">Was at <a><b>Risky Burgers</b></a>
+                        <span class="small right aligned badge text-muted"> 10 minutes ago</span></div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img class="ui avatar image" src="/images/avatar/small/elliot.jpg">
+                      <div class="content">
+                        <a class="header">Elliot Desmond</a>
+                        <div class="description">Commented on your drool <a><b>Refuel Max</b></a>
+                          <span class="small right aligned badge text-muted"> Yesterday</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+
+  
+      
+ 
 
 
 </body>

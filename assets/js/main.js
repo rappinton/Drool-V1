@@ -1,5 +1,5 @@
 //dropdown
-$('.ui.dropdown').dropdown('show');
+$('.ui.dropdown').dropdown();
 
 //sidebar
 $('.ui.sidebar').sidebar('attach events','.toc.item');
