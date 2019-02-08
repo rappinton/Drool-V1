@@ -9,9 +9,15 @@ var options = {
 	zoom: 3
   };
 
-var layer =
-L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-attribution: 'Drool Spots'
-}).addTo(map);
+var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+attribution: 'Drool Spots'}).addTo(map);
 
-L.marker([6.42533164432, 3.40933498362]).addTo(map).bindPopup('Chicken Republic')
+var mapopup = document.getElementById("mapopup");
+
+L.marker([6.4582152889416715, 3.399667739868164]).addTo(map).bindPopup(mapopup);
+L.marker([6.4582012314416715, 3.403963739868164]).addTo(map).bindPopup(mapopup);
+L.marker([6.4584562082416715, 3.374946739868164]).addTo(map).bindPopup(mapopup);
+L.marker([6.4587991816516715, 3.355721739868164]).addTo(map).bindPopup(mapopup);
+L.marker([6.4581011123416715, 3.436720739868164]).addTo(map).bindPopup(mapopup);
+L.marker([6.4581314077416715, 3.417597739868164]).addTo(map).bindPopup(mapopup);
+L.marker([6.4581516809416715, 3.398583739868164]).addTo(map).bindPopup(mapopup);
