@@ -17,6 +17,33 @@
 </head>
 <body>
 
+    <div class="ui rail pt-3" style="left:25% !important; bottom:auto !important;">
+        <div class="ui fixed sticky">
+            <div class="ui card">
+                <div class="content">
+                    <div class="header">
+                        Register (Vendor)
+                    </div>
+                    <div class="meta">
+                        Next: Login (Vendor)
+                    </div>
+                    <div class="description">
+                        Even food vendors can join in the drooling party, noone's exempted...
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="ui two buttons">
+                    <div class="ui basic grey button" data-tooltip="Go to the previous tour page" data-position="bottom left" onClick="javascript:history.go(-1)">Back</div>
+                    <div class="ui basic green button" data-tooltip="Go to the next tour page" data-position="bottom right" onclick="window.location.href='vendorlog.html'">Next</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+          $('.ui.sticky').sticky({context: 'pusher'});
+      </script>
+
   <!-- SIDEBAR -->
     <div class="ui sidebar vertical menu large icon labelled container">
       <a href="#" class="navbar-brand item centered brand">

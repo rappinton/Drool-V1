@@ -18,58 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </head>
   <body>
-      <div class="ui rail pt-3" style="left:25% !important; bottom:auto !important;">
-          <div class="ui fixed sticky">
-              <div class="ui card">
-                  <div class="content">
-                      <div class="header">
-                          Food Feed
-                      </div>
-                      <div class="meta">
-                          Next: Drool Spots
-                      </div>
-                      <div class="description">
-                          View a wide array of randomly selected yummy dishes from all around the world...
-                      </div>
-                  </div>
-                  <div class="extra content">
-                      <div class="ui two buttons">
-                      <div class="ui basic grey button" data-toggle="modal" data-target="#tourModal" data-tooltip="View Tour Guide" data-position="bottom left">Introduction</div>
-                      <div class="ui basic green button" data-tooltip="Go to the next tour page" data-position="bottom right" onclick="window.location.href='spots.html'">Next</div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      
-      <div class="modal fade" id="tourModal">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h2 class="modal-title"><i class="blue info circle icon"></i> Welcome to Drool</h2>
-                      <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-                  </div>
-                  <div class="modal-body text-center">
-                    <br>
-                      <p class="lead text-muted">Food is a beautiful art and an essential requirement for our physical and mental wellbeing.</p>
-                      <p class="lead text-muted">The Drool App is a food feed app which helps its users to search and find amazing meals from nearby restaurants.</p>
-                      <p class="lead text-muted">It helps to link restaurants with potential customers and vice versa. It also provides smart suggestions based on the user’s preferences, reviews and search queries...</p>
-                      <br>
-                      <hr class="text-muted">
-                      <p class="text-muted text-monospace">This is a guide on the basic feartures of Drool, please stick around, there's more to come!</p>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="ui positive close button" data-dismiss="modal">Proceed</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-  <script>
-    $(window).on('load',function(){$('#tourModal').modal('show');});
-      $('.ui.sticky').sticky({context: 'pusher'});
-  </script>
-
+    
     <!-- SIDEBAR -->
     <div class="ui sidebar vertical menu large icon labelled container">
       <a href="#" class="navbar-brand item centered brand">

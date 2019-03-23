@@ -17,6 +17,34 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <div class="ui rail pt-3" style="left:25% !important; bottom:auto !important;">
+        <div class="ui fixed sticky">
+            <div class="ui card">
+                <div class="content">
+                    <div class="header">
+                       Login (Vendor)
+                    </div>
+                    <div class="meta">
+                        Next: Vendor Dashboard
+                    </div>
+                    <div class="description">
+                        And as usual, special droolers have their VIP Pass into the drool party...
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="ui two buttons">
+                    <div class="ui basic grey button" data-tooltip="Go to the previous tour page" data-position="bottom left" onClick="javascript:history.go(-1)">Back</div>
+                    <div class="ui basic green button" data-tooltip="Go to the next tour page" data-position="bottom right" onclick="window.location.href='dashboard.html'">Next</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+          $('.ui.sticky').sticky({context: 'pusher'});
+      </script>
+
   <!-- SIDEBAR -->
     <div class="ui sidebar vertical menu large icon labelled container">
       <a href="#" class="navbar-brand item centered brand">

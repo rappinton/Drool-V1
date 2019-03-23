@@ -1,0 +1,76 @@
+.bg-black{
+    background-color: black;
+  }
+
+  .store-logo{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .font-div{
+    width: 30%;
+  }
+
+
+
+
+  .profie-user{
+    background: #fcfcfc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .profile-details{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 125px;
+    margin-bottom: 6px;
+  }
+  .profile-user-highlight{
+    background: #efece0;
+    width: 180px;
+    margin-left: 2em;
+    margin-right: 2em;
+    position: relative;
+    top: -2em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  .profie-image{
+    display: block;
+    margin: 0 auto;
+    /* position: relative; */
+    /* top: -2em; */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+  }
+  h2.profie-username{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #949182;
+    text-align: center;
+    position: relative;
+    top: -.5em;
+  }
+  .profile-count{
+    font-size: .75em;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 0;
+    padding-bottom: 1em;
+  }
+  .profile-count b{
+    display: block;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1;
+  }
+  .user-stats{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 1em;
+  }
+  .following{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+  }

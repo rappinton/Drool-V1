@@ -14,6 +14,7 @@ attribution: 'Drool Spots'}).addTo(map);
 
 var mapopup = document.getElementById("mapopup");
 
+// Tour Mode - Demo Data
 L.marker([6.4582152889416715, 3.399667739868164]).addTo(map).bindPopup(mapopup);
 L.marker([6.4582012314416715, 3.403963739868164]).addTo(map).bindPopup(mapopup);
 L.marker([6.4584562082416715, 3.374946739868164]).addTo(map).bindPopup(mapopup);

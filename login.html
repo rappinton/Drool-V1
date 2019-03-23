@@ -16,6 +16,34 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <div class="ui rail pt-3" style="left:25% !important; bottom:auto !important;">
+        <div class="ui fixed sticky">
+            <div class="ui card">
+                <div class="content">
+                    <div class="header">
+                        Login (User)
+                    </div>
+                    <div class="meta">
+                        Next: Register (Vendor)
+                    </div>
+                    <div class="description">
+                        Every registered drooler always has their VIP Access, like a boss...
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="ui two buttons">
+                    <div class="ui basic grey button" data-tooltip="Go to the previous tour page" data-position="bottom left" onClick="javascript:history.go(-1)">Back</div>
+                    <div class="ui basic green button" data-tooltip="Go to the next tour page" data-position="bottom right" onclick="window.location.href='vendoreg.html'">Next</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+          $('.ui.sticky').sticky({context: 'pusher'});
+      </script>
+
   <!-- SIDEBAR -->
     <div class="ui sidebar vertical menu large icon labelled container">
       <a href="#" class="navbar-brand item centered brand">
