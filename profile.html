@@ -16,6 +16,34 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
+
+        <div class="ui rail pt-3" style="left:25% !important; bottom:auto !important;">
+                <div class="ui fixed sticky">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="header">
+                                User Profile
+                            </div>
+                            <div class="meta">
+                                Next: Vendor Profile
+                            </div>
+                            <div class="description">
+                                    Each user has a sleek dashboard with a beautiful drooling experience...
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <div class="ui two buttons">
+                            <div class="ui basic grey button" data-tooltip="Go to the previous tour page" data-position="bottom left" onClick="javascript:history.go(-1)">Back</div>
+                            <div class="ui basic green button" data-tooltip="Go to the next tour page" data-position="bottom right" onclick="window.location.href='vendor.html'">Next</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                  $('.ui.sticky').sticky({context: 'pusher'});
+              </script>
+
   <!-- SIDEBAR -->
     <div class="ui sidebar vertical menu large icon labelled container">
       <a href="#" class="navbar-brand item centered brand">
@@ -101,26 +129,26 @@
                             <div class="nav-tabs-wrapper">
                                 <ul class="nav nav-tabs" data-tabs="tabs">
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#profile" data-toggle="tab">
-                                            <i class="user icon"></i>Profile
-                                            <div class="ripple-container"></div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#drools" data-toggle="tab">
+                                        <a class="nav-link active" href="#drools" data-toggle="tab">
                                             <i class="utensils icon"></i>Drools
                                             <div class="ripple-container"></div>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#messages" data-toggle="tab">
+                                        <a class="nav-link" href="#checkins" data-toggle="tab">
                                             <i class="building icon"></i> Check-ins
                                             <div class="ripple-container"></div>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#settings" data-toggle="tab">
+                                        <a class="nav-link" href="#favourites" data-toggle="tab">
                                             <i class="star icon"></i> Favourites
+                                            <div class="ripple-container"></div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#profile" data-toggle="tab">
+                                            <i class="user icon"></i>Profile
                                             <div class="ripple-container"></div>
                                         </a>
                                     </li>
@@ -130,129 +158,52 @@
                     </div>
                     <div class="card-body">
                         <div class="tab-content">
-                            <div class="tab-pane active" id="profile">
-                              <h1>Profile</h1>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+                            <div class="tab-pane active" id="drools">
+                                <div class="ui container mt-3 mb-3 pb-3">
+                                    <div class="ui centered three stackable cards mt-3 mb-3 pb-3">
+                                        <div class="ui card column">
+                                            <div class="image">
+                                                <img src="./assets/img/food.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="ui card column">
+                                            <div class="image">
+                                                <img src="./assets/img/food3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="ui card column">
+                                            <div class="image">
+                                                <img src="./assets/img/food4.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="ui card column">
+                                            <div class="image">
+                                                <img src="./assets/img/food1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="ui card column">
+                                            <div class="image">
+                                                <img src="./assets/img/food2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="ui card column">
+                                            <div class="image">
+                                                <img src="./assets/img/food6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="tab-pane" id="messages">
-                                <table class="table">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="" checked="">
-                                                        <span class="form-check-sign">
-                                                            <span class="check"></span>
-                                                        </span>
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                                            </td>
-                                            <td class="td-actions text-right">
-                                                <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                                    <i class="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                                    <i class="material-icons">close</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        <span class="form-check-sign">
-                                                            <span class="check"></span>
-                                                        </span>
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                            <td class="td-actions text-right">
-                                                <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                                    <i class="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                                    <i class="material-icons">close</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="tab-pane" id="checkins">
+                                
                             </div>
-                            <div class="tab-pane" id="settings">
-                                <table class="table">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="">
-                                                        <span class="form-check-sign">
-                                                            <span class="check"></span>
-                                                        </span>
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
-                                            <td class="td-actions text-right">
-                                                <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                                    <i class="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                                    <i class="material-icons">close</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="" checked="">
-                                                        <span class="form-check-sign">
-                                                            <span class="check"></span>
-                                                        </span>
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                                            </td>
-                                            <td class="td-actions text-right">
-                                                <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                                    <i class="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                                    <i class="material-icons">close</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" value="" checked="">
-                                                        <span class="form-check-sign">
-                                                            <span class="check"></span>
-                                                        </span>
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                            <td class="td-actions text-right">
-                                                <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                                    <i class="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                                    <i class="material-icons">close</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="tab-pane" id="favourites">
+                                
+                            </div>
+                            <div class="tab-pane" id="profile">
+                                <h1>Profile</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          
                             </div>
                         </div>
                     </div>
@@ -260,8 +211,11 @@
               </div>
           </div>
       </div>
+      
+      <br>
+      <br>
+  
     </div>
-
 
     </body>
     <footer id="footer" class="pt-0">

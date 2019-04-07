@@ -18,6 +18,33 @@
 </head>
 <body>
 
+    <div class="ui rail pt-3" style="left:25% !important; bottom:auto !important;">
+        <div class="ui fixed sticky">
+            <div class="ui card">
+                <div class="content">
+                    <div class="header">
+                        Vendor Profile
+                    </div>
+                    <div class="meta">
+                        Next: Get Drooling
+                    </div>
+                    <div class="description">
+                            Vendors and their meals can always stand out on the first food feed of its kind...
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="ui two buttons">
+                    <div class="ui basic grey button" data-tooltip="Go to the previous tour page" data-position="bottom left" onClick="javascript:history.go(-1)">Back</div>
+                    <div class="ui basic green button" data-tooltip="Go to the next tour page" data-position="bottom right" onclick="window.location.href='vendor.html'">Next</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+          $('.ui.sticky').sticky({context: 'pusher'});
+      </script>
+
   <!-- SIDEBAR -->
     <div class="ui sidebar vertical menu large icon labelled container">
       <a href="#" class="navbar-brand item centered brand">
